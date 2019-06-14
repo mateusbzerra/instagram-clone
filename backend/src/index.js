@@ -7,7 +7,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-mongoose.connect('mongodb://root:root@localhost:27017/admin', {
+mongoose.connect('mongodb://rocket:rocket@localhost:27017/goweek', {
 	useNewUrlParser: true
 });
 
